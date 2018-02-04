@@ -1,0 +1,5 @@
+curl localhost:8080/bear
+curl localhost:8080/bear/6
+curl -d '{"name":"aa"}' localhost:8080/bear
+curl -X PUT -d '{"id":"6", "name":"rose"}' localhost:8080/bear
+curl -X DELETE localhost:8080/bear/2
